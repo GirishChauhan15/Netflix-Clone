@@ -31,6 +31,8 @@ body {
   overflow-x: hidden;
 }
 
+/* 0 to 600px */
+
 .remove {
   display: none;
 }
@@ -235,7 +237,6 @@ hr {
 }
 
 .cards {
-  /* background-color: rebeccapurple; */
   padding: .8em;
   display: flex;
   flex-direction: column;
@@ -243,11 +244,7 @@ hr {
 .card_one {
   margin: 2.5em 0;
   padding: 0 1em;
-  /* background-color: pink; */
 }
-/* .card_sub-one {
-  background-color: gray;
-} */
 .card_title {
   font-size: 2rem;
   text-align: center;
@@ -255,7 +252,6 @@ hr {
 .card_description {
   font-size: 1.1rem;
   text-align: center;
-  /* background-color: rgb(79, 57, 20); */
 }
 .card_sub-two {
   position: relative;
@@ -358,12 +354,10 @@ hr {
 }
 
 .faq_content {
-  /* div */
   margin: 2em 1em;
 }
 
 .faq_content_title {
-  /* fst div */
   background-color: #414141;
   cursor: pointer;
   display: flex;
@@ -374,13 +368,11 @@ hr {
 }
 
 .faq_content_subtitle {
-  /* fst title */
   font-weight: normal;
   padding: 0.2em 1em;
 }
 
 .faq_content_close {
-  /* btn */
   cursor: pointer;
   background-color: transparent;
   border: 0;
@@ -484,6 +476,8 @@ hr {
   font-weight: normal;
 }
 
+/* 600px+ */
+
 @media (min-width: 600px) {
   .hindi_signIn {
     width: 5.5rem;
@@ -562,7 +556,7 @@ hr {
   }
 }
 
-/* Media 960++ */
+/* 960px+ */
 
 @media (min-width: 960px) {
   .logo img {
@@ -762,6 +756,8 @@ hr {
 
 }
 
+/* 1280px+ */
+
 @media (min-width:1280px) {
   .container {
     max-width: 1280px;
@@ -772,6 +768,8 @@ hr {
   margin: 0 auto;
 }
 }
+
+/* 1920px+ */
 
 @media (min-width:1920px) {
   .container {
