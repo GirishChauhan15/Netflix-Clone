@@ -138,6 +138,11 @@ body {
   padding: 0.5em 1em;
 }
 
+.sign_in:hover,
+.sign_in:focus {
+  background: #ae0710;
+}
+
 .hindi_signIn {
   width: 5.5rem;
 }
@@ -227,6 +232,12 @@ body {
 .get-started img {
   margin-left: 0.6em;
   width: 1.3rem;
+}
+
+
+.get-started:hover,
+.get-started:focus {
+  background: #ae0710;
 }
 
 hr {
@@ -365,6 +376,10 @@ hr {
   align-items: center;
   padding: 1em 0;
   margin-top: -1.5em;
+}
+
+.faq_content_title:hover {
+background-color: #585858;
 }
 
 .faq_content_subtitle {
