@@ -738,6 +738,7 @@ selectElm.addEventListener("change", function (e) {
     hindiDiv.innerHTML = "";
     signIn.innerHTML = "Sign In"
     signIn.classList.remove('hindi_signIn')
+    videos()
   }
 
   if (e.target.value === "हिन्दी") {
