@@ -338,6 +338,7 @@ englishText.innerHTML = `
 
 document.addEventListener("DOMContentLoaded", (event) => {
   engDiv.appendChild(englishText);
+  videos()
   demo()
 })
 
@@ -744,6 +745,16 @@ selectElm.addEventListener("change", function (e) {
     hindiDiv.appendChild(hindiText);
     signIn.innerHTML = "साइन इन करें";
     signIn.classList.add('hindi_signIn')
+    videos()
     demo()
   }
 });
+
+
+
+function videos() {
+  let tvVideo = document.querySelector('.tv_video')
+  let multiVideo = document.querySelector('.Multi_video')
+  tvVideo.outerHTML = `<video class="tv_video" src="./Assets/video-tv-in-0819.m4v" autoplay loop muted></video>`
+  multiVideo.outerHTML = `<video class="Multi_video" src="./Assets/video-devices-in.m4v" autoplay loop muted></video>`
+}

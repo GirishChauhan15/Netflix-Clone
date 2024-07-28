@@ -392,6 +392,7 @@ background-color: #585858;
   background-color: transparent;
   border: 0;
   outline: 0;
+  padding-right: 1.5em;
 }
 .close_btn {
   transform: rotate(45deg);
@@ -711,10 +712,6 @@ background-color: #585858;
 
 .faq_content_subtitle {
   font-size: 1.4rem;
-}
-
-.faq_content_close {
-  padding-right: 1.5em;
 }
 
 .faq_infoContent {
